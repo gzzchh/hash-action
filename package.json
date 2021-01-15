@@ -1,0 +1,17 @@
+{
+  "name": "hash-action",
+  "version": "1.0.0",
+  "description": "利用Actions计算文件哈希",
+  "main": "index.js",
+  "repository": "git@github.com:gzzchh/hash-action.git",
+  "author": "Li Mi <xjdzch@126.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.12",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.1",
+    "jsdom": "^16.4.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  }
+}
