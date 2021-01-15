@@ -1,8 +1,3 @@
-let moment = require("moment");
-
-function strip(str) {
-	return str.replace(/(^\s*|\s*$)/g, "");
-}
 function render(fileInfo) {
 	// md5sum: "",
 	// 	sha1sum: "",
