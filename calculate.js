@@ -41,7 +41,7 @@ async function performTasks(list) {
 			}
 			// 此处修改为获取文件哈希
 			console.log(`文件地址为: ${issue.body}`);
-			let fileInfo = await hashFile(issue.body);
+			let fileInfo = await hashFile.calhHash(issue.body);
 			await octokit.issues.createComment({
 				owner: OWNER,
 				repo: REPO,
