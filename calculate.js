@@ -54,7 +54,7 @@ async function performTasks(list) {
 				issue_number: issue.number,
 				state: "closed",
 				title: fileInfo.filename,
-				labels: ["fetched"],
+				labels: ["calculated"],
 			});
 		} catch (error) {
 			await octokit.issues.createComment({
