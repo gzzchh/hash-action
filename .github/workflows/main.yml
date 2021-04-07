@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: gzzchh/hash-action@main
+      - uses: gzzchh/action-hash@main
         # 传递变量进去
         env:
           TOKEN: ${{ github.token }}
